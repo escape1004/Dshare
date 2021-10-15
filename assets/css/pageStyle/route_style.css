@@ -1,0 +1,138 @@
+#contents {
+    padding:170px 0;
+    margin : 0 auto;
+}
+.content-article{}
+.boardType{}
+.board{}
+.board-search{
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.board-search .form-select{
+    width: 10%;
+    height: 50px;
+    border: 1px solid #ABABAB;
+    border-radius: 10px 0 0 10px;
+    padding: 0 20px;
+}
+.board-search .form-search{
+    width: 50%;
+    height: 50px;
+    border: 1px solid #ABABAB;
+    margin:0;
+    padding: 0 20px;
+}
+.board-search .form-btn{
+    width: 10%;
+    height: 50px;
+    background-color: #D6E1E7;
+    border: 1px solid #ABABAB;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+}
+.board-table{}
+.board-page{
+    width: 100%;
+    height: 300px;
+}
+.route {
+    margin-top: 50px;
+}
+.route_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.route .routeBox{
+    width: 31%;
+    border: 1px solid #ABABAB;
+    border-radius: 10px;
+    height: 200px;
+    display:inline-block;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+.routeBox_top {
+    height: 30%;
+    border-bottom: 1px solid #C4C4C4;
+    display: flex;
+    position: relative;
+}
+.routeBox_top h3 {}
+.routeBox_top img {
+    width: 12%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.routeBox_middle {}
+.routeBox_middle p {}
+.routeBox_middle .heart {}
+.routeBox_bottom {}
+.routeBox_bottom .tag {}
+.routeBox_bottom .tag span {}
+.routeBox_bottom img {}
+
+/* routeView */
+.routeView {
+    margin: 50px 0;
+    border:1px solid #C9C9C9;
+    border-radius: 10px;
+    padding:80px 100px;
+    box-sizing: border-box;
+}
+.routeViewDesc {
+    width: 100%;
+}
+.routeViewDesc h1{
+    display: block;
+    border-bottom: 1px solid #474747;
+    font-size:40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.routeViewDesc h5{
+    margin:10px 0;
+}
+.routeViewDesc h3{}
+.map {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.routeInfo {
+    width:35%;
+    height: 400px;
+    border:1px solid #C9C9C9;
+    border-radius: 10px;
+    display: inline-block;
+}
+#map_div {
+    width:60%;
+    height: 400px;
+    border:1px solid #C9C9C9;
+    border-radius: 10px;
+    display: inline-block;
+}
+/* 거리표시 팝업*/
+.mPop{
+    border: 1px;
+    background-color: #FFF;
+    font-size: 12px;
+    border-color: #FF0000;
+    border-style: solid;
+    text-align: center;
+}
+/*공통사용 클래스*/
+.mPopStyle {
+    border: 1px;
+    background-color: #FFF;
+    font-size: 12px;
+    border-color: #FF0000;
+    border-style: solid;
+    text-align:left;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>root</title>
+
+    <link rel="stylesheet" href="/assets/css/reset.css">
+
+    <style>
+        section {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .menu {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .menu h2 {
+            margin-bottom: 15px;
+        }
+
+        .menu a {
+            text-align: center;
+            min-width: 140px;
+            padding: 10px 20px;
+            border: 1px solid #000;
+            transition: all .1s ease-in-out;
+            display: block;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        .menu a:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <ul class="menu">
+            <h2>[ Root ]</h2>
+            <li><a href="/login/join.php">회원가입</a></li>
+            <li><a href="/login/login.php">로그인</a></li>
+            <li><a href="/board/board.php">게시판</a></li>
+            <li><a href="/board/boardWrite.php">게시글 쓰기</a></li>
+            <li><a href="/board/boardModify.php">게시글 수정</a></li>
+            <li><a href="/board/boardView.php">게시글 보기</a></li>
+            <li><a href="/include/footer.php">푸터</a></li>
+            <li><a href="/include/header.php">헤더</a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
